@@ -1,0 +1,10 @@
+Executed with MATLAB R2025b on Windows.
+Seed: 42. Independent episodes: 990.
+Training feature windows: 2772. Held-out feature windows: 1188.
+Held-out stable-window accuracy: 1.0000. Macro F1: 1.0000.
+PASS: training/test episode IDs are disjoint.
+PASS: all feature values and simulation predictions are finite.
+PASS: Simulink circuit measurements match reference solver within 1e-8.
+PASS: Simulink AI predictions equal independent causal replay exactly.
+PASS: saved model opens and simulates through open_demo without retraining.
+These results measure a synthetic reduced feeder distribution only.

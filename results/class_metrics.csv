@@ -1,0 +1,12 @@
+Class,TestSupport,Precision,Recall,F1
+Normal,648,1,1,1
+AG,54,1,1,1
+BG,54,1,1,1
+CG,54,1,1,1
+AB,54,1,1,1
+BC,54,1,1,1
+CA,54,1,1,1
+ABG,54,1,1,1
+BCG,54,1,1,1
+CAG,54,1,1,1
+ABC,54,1,1,1
