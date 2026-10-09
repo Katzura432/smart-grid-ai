@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T01:39:43.910768</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 370.064566 182.327671 
+Q 395.425175 182.327671 418.773323 182.327671 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 412.373323 179.127671 
+L 418.773323 182.327671 
+L 412.373323 185.527671 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 731.216566 182.327671 
+Q 756.577175 182.327671 779.925323 182.327671 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 773.525323 179.127671 
+L 779.925323 182.327671 
+L 773.525323 185.527671 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 370.064566 324 
+Q 395.425175 324 418.773323 324 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 412.373323 320.8 
+L 418.773323 324 
+L 412.373323 327.2 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 731.216566 324 
+Q 756.577175 324 779.925323 324 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 773.525323 320.8 
+L 779.925323 324 
+L 773.525323 327.2 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 370.064566 465.672329 
+Q 395.425175 465.672329 418.773323 465.672329 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 412.373323 462.472329 
+L 418.773323 465.672329 
+L 412.373323 468.872329 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 731.216566 465.672329 
+Q 756.577175 465.672329 779.925323 465.672329 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 773.525323 462.472329 
+L 779.925323 465.672329 
+L 773.525323 468.872329 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 937.152 228.178144 
+Q 937.152 253.16281 937.152 276.135015 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 940.352 269.735015 
+L 937.152 276.135015 
+L 933.952 269.735015 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #64748b; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 937.152 369.850473 
+Q 937.152 394.835139 937.152 417.807344 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 940.352 411.407344 
+L 937.152 417.807344 
+L 933.952 411.407344 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #64748b; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 1101.312 465.672329 
+L 1112.256 465.672329 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 1112.256 465.672329 
+L 1112.256 111.491507 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 1112.256 111.491507 
+L 937.152 111.491507 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 937.152 113.488962 
+Q 937.152 123.294951 937.152 131.088478 
+" clip-path="url(#p02ce82e07f)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 940.352 124.688478 
+L 937.152 131.088478 
+L 933.952 124.688478 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #64748b; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 61.632 228.539836 
+L 368.064 228.539836 
+Q 371.8944 228.539836 371.8944 226.17863 
+L 371.8944 138.476712 
+Q 371.8944 136.115507 368.064 136.115507 
+L 61.632 136.115507 
+Q 57.8016 136.115507 57.8016 138.476712 
+L 57.8016 226.17863 
+Q 57.8016 228.539836 61.632 228.539836 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 422.784 228.539836 
+L 729.216 228.539836 
+Q 733.0464 228.539836 733.0464 226.17863 
+L 733.0464 138.476712 
+Q 733.0464 136.115507 729.216 136.115507 
+L 422.784 136.115507 
+Q 418.9536 136.115507 418.9536 138.476712 
+L 418.9536 226.17863 
+Q 418.9536 228.539836 422.784 228.539836 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 783.936 228.539836 
+L 1090.368 228.539836 
+Q 1094.1984 228.539836 1094.1984 226.17863 
+L 1094.1984 138.476712 
+Q 1094.1984 136.115507 1090.368 136.115507 
+L 783.936 136.115507 
+Q 780.1056 136.115507 780.1056 138.476712 
+L 780.1056 226.17863 
+Q 780.1056 228.539836 783.936 228.539836 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 61.632 370.212164 
+L 368.064 370.212164 
+Q 371.8944 370.212164 371.8944 367.850959 
+L 371.8944 280.149041 
+Q 371.8944 277.787836 368.064 277.787836 
+L 61.632 277.787836 
+Q 57.8016 277.787836 57.8016 280.149041 
+L 57.8016 367.850959 
+Q 57.8016 370.212164 61.632 370.212164 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 422.784 370.212164 
+L 729.216 370.212164 
+Q 733.0464 370.212164 733.0464 367.850959 
+L 733.0464 280.149041 
+Q 733.0464 277.787836 729.216 277.787836 
+L 422.784 277.787836 
+Q 418.9536 277.787836 418.9536 280.149041 
+L 418.9536 367.850959 
+Q 418.9536 370.212164 422.784 370.212164 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 783.936 370.212164 
+L 1090.368 370.212164 
+Q 1094.1984 370.212164 1094.1984 367.850959 
+L 1094.1984 280.149041 
+Q 1094.1984 277.787836 1090.368 277.787836 
+L 783.936 277.787836 
+Q 780.1056 277.787836 780.1056 280.149041 
+L 780.1056 367.850959 
+Q 780.1056 370.212164 783.936 370.212164 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 61.632 511.884493 
+L 368.064 511.884493 
+Q 371.8944 511.884493 371.8944 509.523288 
+L 371.8944 421.82137 
+Q 371.8944 419.460164 368.064 419.460164 
+L 61.632 419.460164 
+Q 57.8016 419.460164 57.8016 421.82137 
+L 57.8016 509.523288 
+Q 57.8016 511.884493 61.632 511.884493 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 422.784 511.884493 
+L 729.216 511.884493 
+Q 733.0464 511.884493 733.0464 509.523288 
+L 733.0464 421.82137 
+Q 733.0464 419.460164 729.216 419.460164 
+L 422.784 419.460164 
+Q 418.9536 419.460164 418.9536 421.82137 
+L 418.9536 509.523288 
+Q 418.9536 511.884493 422.784 511.884493 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 783.936 511.884493 
+L 1090.368 511.884493 
+Q 1094.1984 511.884493 1094.1984 509.523288 
+L 1094.1984 421.82137 
+Q 1094.1984 419.460164 1090.368 419.460164 
+L 783.936 419.460164 
+Q 780.1056 419.460164 780.1056 421.82137 
+L 780.1056 509.523288 
+Q 780.1056 511.884493 783.936 511.884493 
+z
+" clip-path="url(#p02ce82e07f)" style="fill: #dcfce7; stroke: #64748b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(172.101828 169.412984)">Source phase A</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(181.682141 185.775484)">Va source(t)</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(161.164563 202.378609)">230 V RMS nominal</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(503.766953 169.412984)">Phase A series impedance</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(537.87125 186.428609)">R = 0.35 ohm</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(526.221563 202.378609)">L = 2 mH nominal</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(882.292937 170.478609)">Measurement bus A</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(859.107 185.362984)">Resistive phase-neutral load</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(860.85325 201.312984)">Va / Ia + ground-fault shunt</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(172.090656 311.085312)">Source phase B</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(144.275266 327.035312)">120-degree displacement</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(155.510734 342.985313)">Same nominal supply</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(503.755781 311.085312)">Phase B series impedance</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(537.87125 328.100937)">R = 0.35 ohm</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(526.221563 344.050937)">L = 2 mH nominal</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(882.281766 312.150937)">Measurement bus B</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(859.107 327.035312)">Resistive phase-neutral load</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(860.183797 342.985313)">Vb / Ib + ground-fault shunt</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(172.023625 452.757641)">Source phase C</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(144.275266 468.707641)">120-degree displacement</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(155.510734 484.657641)">Same nominal supply</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(503.68875 452.757641)">Phase C series impedance</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(537.87125 469.773266)">R = 0.35 ohm</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(526.221563 485.723266)">L = 2 mH nominal</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(882.214734 453.823266)">Measurement bus C</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(859.107 468.707641)">Resistive phase-neutral load</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172337" transform="translate(861.118797 484.657641)">Vc / Ic + ground-fault shunt</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_20">
+     <path d="M 900.136687 247.500845 
+L 974.167312 247.500845 
+L 974.167312 234.540142 
+L 900.136687 234.540142 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #334155" x="937.152" y="243.358735" transform="rotate(-0 937.152 243.358735)">Coupled fault G</text>
+   </g>
+   <g id="text_11">
+    <g id="patch_21">
+     <path d="M 900.136687 389.173173 
+L 974.167312 389.173173 
+L 974.167312 376.21247 
+L 900.136687 376.21247 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #334155" x="937.152" y="385.031064" transform="rotate(-0 937.152 385.031064)">Coupled fault G</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_22">
+     <path d="M 940.513781 107.852406 
+L 1021.342219 107.852406 
+L 1021.342219 94.891703 
+L 940.513781 94.891703 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #334155" x="980.928" y="103.710297" transform="rotate(-0 980.928 103.710297)">CA fault coupling</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="576" y="29.676563" transform="rotate(-0 576 29.676563)">Smart-grid AI — equivalent feeder schematic</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #475569" x="576" y="42.12" transform="rotate(-0 576 42.12)">Per-phase series R-L paths and conductance-based loads/faults</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #475569" x="576" y="612.36" transform="rotate(-0 576 612.36)">230 V RMS phase-neutral / 60 Hz. Neutral is the reference; coupled faults modify the three-phase admittance matrix.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #64748b" x="576" y="631.8" transform="rotate(-0 576 631.8)">Blue: signal/data flow   |   Dashed gray: control, hierarchy or external context   |   Dashed boxes: not implemented here</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p02ce82e07f">
+   <rect x="28.8" y="77.76" width="1094.4" height="492.48"/>
+  </clipPath>
+ </defs>
+</svg>

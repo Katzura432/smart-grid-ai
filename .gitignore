@@ -3,3 +3,4 @@ slprj/
 *.asv
 *.autosave
 *.log
+docs/diagrams/__pycache__/

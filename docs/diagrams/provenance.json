@@ -1,0 +1,13 @@
+{
+  "source_commit": "759f1807c18a81dc4684c270098728285b2ca38f",
+  "method": "Annotated source-derived block diagrams; not synthesized netlist or GUI screenshots",
+  "source_sha256": {
+    "src/build_model.m": "835602ae68bd4ff791bbec3ac0b1990f3ef92f874eb197ae08c79d0dc44c0ffd",
+    "src/config.m": "e1a3be0e0d1c7ba446c8815d9e382ec5ea4c2d297f812753906b4ced2a636db6",
+    "src/FaultDetector.m": "9306b36c0e28124692b0d975e75578e6a28d69f60f283640bed9d0e539c45dc3",
+    "src/features.m": "0ebe342cabc55a923c840f7bb6cd8012053639d7fc103991141a4e2918a7e236",
+    "src/GridFeeder.m": "046dc0ad748f9c49ea7f0241f9d210ece80f0475c57a10123e097fc1d8bcc855",
+    "src/feeder_episode.m": "e1540129d7b93c1d06aac4adfc85d61b02d5ee9db04940a45d21d2fb4b1a1afd",
+    "run_project.m": "5e182b99fa7b7df039de78e390fd41f0310645688e5abca7da1f627db03b78af"
+  }
+}

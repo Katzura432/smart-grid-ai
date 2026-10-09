@@ -98,3 +98,11 @@ Alternatively, use GitHub's **Add file → Upload files** and upload the project
 - [MathWorks: printing Simulink diagrams](https://www.mathworks.com/help/simulink/ug/print-model-diagrams.html)
 
 Educational simulation project. Validation on measured grid data and engineering review would be needed before practical protection use.
+
+## Architecture diagrams
+
+![Project architecture](docs/diagrams/figures/architecture_overview.png)
+
+See the [architecture and implementation gallery](docs/ARCHITECTURE.md) for
+the detailed model/control structure and electrical topology
+diagrams, source mappings, scope boundaries, editable definitions, and PNG/SVG figures.

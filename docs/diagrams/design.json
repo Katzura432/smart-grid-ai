@@ -1,0 +1,417 @@
+{
+  "project": "smart-grid-ai",
+  "scope": "Software-executed electrical simulation and ML inference; no FPGA RTL, physical sensor acquisition, relay trip, or real-grid deployment.",
+  "sources": [
+    {
+      "path": "src/build_model.m",
+      "contains": [
+        "GridFeeder",
+        "FaultDetector"
+      ]
+    },
+    {
+      "path": "src/config.m",
+      "contains": [
+        "c.fs=4800",
+        "c.window=80"
+      ]
+    },
+    {
+      "path": "src/FaultDetector.m",
+      "contains": [
+        "classifier.mat",
+        "obj.Buffer",
+        "features(obj.Buffer"
+      ]
+    },
+    {
+      "path": "src/features.m",
+      "contains": [
+        "vr=sqrt",
+        "ir=sqrt"
+      ]
+    },
+    {
+      "path": "src/GridFeeder.m",
+      "contains": []
+    },
+    {
+      "path": "src/feeder_episode.m",
+      "contains": []
+    },
+    {
+      "path": "run_project.m",
+      "contains": [
+        "fitcensemble"
+      ]
+    }
+  ],
+  "diagrams": [
+    {
+      "id": "architecture_overview",
+      "title": "Smart-grid AI — system architecture",
+      "subtitle": "Live electrical measurements feed causal fault classification",
+      "scope": "4.8 kHz simulation; 80-sample trailing window; classifier output is not a protection trip signal.",
+      "nodes": [
+        {
+          "id": "time",
+          "x": 3,
+          "y": 51,
+          "label": "Sample clock\n4.8 kHz discrete execution",
+          "kind": "model"
+        },
+        {
+          "id": "feeder",
+          "x": 36,
+          "y": 51,
+          "label": "GridFeeder\nStateful three-phase\nR-L feeder + fault circuit",
+          "kind": "model"
+        },
+        {
+          "id": "detector",
+          "x": 69,
+          "y": 51,
+          "label": "FaultDetector\nCausal feature extraction\nBagged-tree classification",
+          "kind": "implemented"
+        },
+        {
+          "id": "data",
+          "x": 3,
+          "y": 9,
+          "label": "Randomized feeder episodes\nEpisode-level train / test split\nNo future-sample features",
+          "kind": "artifact"
+        },
+        {
+          "id": "training",
+          "x": 36,
+          "y": 9,
+          "label": "Offline training\n80 bagged decision trees\nmodels/classifier.mat",
+          "kind": "artifact"
+        },
+        {
+          "id": "measure",
+          "x": 36,
+          "y": 30,
+          "label": "Electrical measurements\nVa, Vb, Vc, Ia, Ib, Ic\nWorkspace log",
+          "kind": "artifact"
+        },
+        {
+          "id": "prediction",
+          "x": 69,
+          "y": 30,
+          "label": "Fault ID + tree vote fraction\nPrediction log and Scope\n11 classes; no auto trip",
+          "kind": "artifact"
+        }
+      ],
+      "edges": [
+        {
+          "from": "time",
+          "to": "feeder",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "feeder",
+          "to": "detector",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "feeder",
+          "to": "measure",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "detector",
+          "to": "prediction",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "data",
+          "to": "training",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "training",
+          "to": "detector",
+          "label": "Load trained model",
+          "kind": "control",
+          "points": [
+            [
+              64.5,
+              15.5
+            ],
+            [
+              66.5,
+              15.5
+            ],
+            [
+              66.5,
+              57.5
+            ],
+            [
+              68.5,
+              57.5
+            ]
+          ],
+          "label_xy": [
+            67,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model_structure",
+      "title": "Smart-grid AI — implementation / model structure",
+      "subtitle": "Actual classes and functions, not an RTL implementation",
+      "scope": "FaultDetector warms up for one complete window; vote fraction is not a calibrated probability.",
+      "nodes": [
+        {
+          "id": "feeder",
+          "x": 3,
+          "y": 51,
+          "label": "GridFeeder.stepImpl()\nLive stateful circuit solve\nSix V/I measurements",
+          "kind": "model"
+        },
+        {
+          "id": "detector",
+          "x": 36,
+          "y": 51,
+          "label": "FaultDetector.stepImpl()\nOne inference per sample\nStateful causal processing",
+          "kind": "implemented"
+        },
+        {
+          "id": "model",
+          "x": 69,
+          "y": 51,
+          "label": "models/classifier.mat\nCompact trained ensemble\nLoaded at setup",
+          "kind": "artifact"
+        },
+        {
+          "id": "buffer",
+          "x": 3,
+          "y": 30,
+          "label": "Private Buffer + Count\nTrailing 80 x 6 samples\nNormal / zero vote in warm-up",
+          "kind": "implemented"
+        },
+        {
+          "id": "features",
+          "x": 36,
+          "y": 30,
+          "label": "features.m\nPhase / residual RMS\nPeaks, power, imbalance",
+          "kind": "implemented"
+        },
+        {
+          "id": "predict",
+          "x": 69,
+          "y": 30,
+          "label": "predict(Model, features)\nBagged-tree ensemble\nClass scores / selected label",
+          "kind": "implemented"
+        },
+        {
+          "id": "output",
+          "x": 69,
+          "y": 9,
+          "label": "[label, max(score)]\n11 modeled classes\nScope + prediction log",
+          "kind": "artifact"
+        }
+      ],
+      "edges": [
+        {
+          "from": "feeder",
+          "to": "detector",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "detector",
+          "to": "buffer",
+          "label": "",
+          "kind": "hierarchy"
+        },
+        {
+          "from": "buffer",
+          "to": "features",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "features",
+          "to": "predict",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "model",
+          "to": "predict",
+          "label": "",
+          "kind": "control"
+        },
+        {
+          "from": "predict",
+          "to": "output",
+          "label": "",
+          "kind": "data"
+        }
+      ]
+    },
+    {
+      "id": "electrical_topology",
+      "title": "Smart-grid AI — equivalent feeder schematic",
+      "subtitle": "Per-phase series R-L paths and conductance-based loads/faults",
+      "scope": "230 V RMS phase-neutral / 60 Hz. Neutral is the reference; coupled faults modify the three-phase admittance matrix.",
+      "nodes": [
+        {
+          "id": "sa",
+          "x": 3,
+          "y": 51,
+          "label": "Source phase A\nVa source(t)\n230 V RMS nominal",
+          "kind": "model"
+        },
+        {
+          "id": "za",
+          "x": 36,
+          "y": 51,
+          "label": "Phase A series impedance\nR = 0.35 ohm\nL = 2 mH nominal",
+          "kind": "model"
+        },
+        {
+          "id": "ba",
+          "x": 69,
+          "y": 51,
+          "label": "Measurement bus A\nResistive phase-neutral load\nVa / Ia + ground-fault shunt",
+          "kind": "model"
+        },
+        {
+          "id": "sb",
+          "x": 3,
+          "y": 30,
+          "label": "Source phase B\n120-degree displacement\nSame nominal supply",
+          "kind": "model"
+        },
+        {
+          "id": "zb",
+          "x": 36,
+          "y": 30,
+          "label": "Phase B series impedance\nR = 0.35 ohm\nL = 2 mH nominal",
+          "kind": "model"
+        },
+        {
+          "id": "bb",
+          "x": 69,
+          "y": 30,
+          "label": "Measurement bus B\nResistive phase-neutral load\nVb / Ib + ground-fault shunt",
+          "kind": "model"
+        },
+        {
+          "id": "sc",
+          "x": 3,
+          "y": 9,
+          "label": "Source phase C\n120-degree displacement\nSame nominal supply",
+          "kind": "model"
+        },
+        {
+          "id": "zc",
+          "x": 36,
+          "y": 9,
+          "label": "Phase C series impedance\nR = 0.35 ohm\nL = 2 mH nominal",
+          "kind": "model"
+        },
+        {
+          "id": "bc",
+          "x": 69,
+          "y": 9,
+          "label": "Measurement bus C\nResistive phase-neutral load\nVc / Ic + ground-fault shunt",
+          "kind": "model"
+        }
+      ],
+      "edges": [
+        {
+          "from": "sa",
+          "to": "za",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "za",
+          "to": "ba",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "sb",
+          "to": "zb",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "zb",
+          "to": "bb",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "sc",
+          "to": "zc",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "zc",
+          "to": "bc",
+          "label": "",
+          "kind": "data"
+        },
+        {
+          "from": "ba",
+          "to": "bb",
+          "label": "Coupled fault G",
+          "kind": "control"
+        },
+        {
+          "from": "bb",
+          "to": "bc",
+          "label": "Coupled fault G",
+          "kind": "control"
+        },
+        {
+          "from": "bc",
+          "to": "ba",
+          "label": "CA fault coupling",
+          "kind": "control",
+          "points": [
+            [
+              98,
+              15.5
+            ],
+            [
+              99,
+              15.5
+            ],
+            [
+              99,
+              68
+            ],
+            [
+              83,
+              68
+            ],
+            [
+              83,
+              64.5
+            ]
+          ],
+          "label_xy": [
+            87,
+            69.5
+          ]
+        }
+      ]
+    }
+  ],
+  "source_commit": "759f1807c18a81dc4684c270098728285b2ca38f"
+}
